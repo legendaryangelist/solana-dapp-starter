@@ -1,0 +1,19 @@
+@import "~bootstrap/scss/bootstrap";
+@import 'antd/dist/reset.css';
+@import "@solana/wallet-adapter-react-ui/styles.css";
+@import "react-toastify/dist/ReactToastify.css";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #10141f;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
